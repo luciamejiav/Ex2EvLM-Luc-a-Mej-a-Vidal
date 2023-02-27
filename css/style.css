@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-right {
+    justify-content: right;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.pd-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pd-20 {
+    padding-right: 20px;
+}
+
+header{
+    font-size: 20px;
+}
+
+.cabecera nav ul li{
+    list-style: none; /*quitamos los puntos*/
+    display: inline-flex; /*para colocar los elementos de la lista en línea*/
+    padding: 10px 20px;
+}
+
+.cabecera a{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: gray;
+}
+
+.foto {
+    background-image: url(../img/marca-principal-landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+
+.caja {
+    width: 50%;
+    border: 4px solid white;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    padding: 40px;
+    background-color: lightblue;
+    opacity: .8;
+    position: relative;
+    position: absolute;
+    color: white;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.pd-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.colum-3 {
+    width: 32%;
+}
+
+.card {
+    box-shadow: 0px 0px 3px 3px rgba(158, 158, 158, 0.75);
+    padding: 30px;
+    position: relative;
+    height: 250px;
+}
+
+.enlace {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.card a{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: black;
+}
+
+.azul {
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+    color: white;
+}
+
+.boton {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(219, 53, 12);
+    padding: 10px;
+    color: white;
+}
+
+.card2 {
+    position: relative;
+    height: 250px;
+    color:rgb(0, 153, 255);
+}
+
+.colum-2 {
+    width: 49%;
+}
+
+.pd-b60 {
+    padding-bottom: 60px;
+}
+
+footer {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: gray;
+    color: white;
+    position: relative;
+}
+
+footer nav ul li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: white;
+}
+
+.redes-sociales {
+    color:rgb(130, 196, 240);
+}
+
+.pd-right {
+    padding-right: 30px;
+}
+
+.abajo {
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
+}
+
+
+
